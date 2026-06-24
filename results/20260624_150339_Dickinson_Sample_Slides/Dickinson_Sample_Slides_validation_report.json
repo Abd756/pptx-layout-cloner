@@ -1,0 +1,608 @@
+{
+  "source_original": "Dickinson_Sample_Slides.pptx",
+  "source_output": "Dickinson_Sample_Slides_output.pptx",
+  "summary": {
+    "total_checks": 125,
+    "passed": 125,
+    "failed": 0,
+    "warnings": 0
+  },
+  "checks": [
+    {
+      "check": "slide_count",
+      "status": "PASS",
+      "value": 9
+    },
+    {
+      "check": "canvas_size",
+      "status": "PASS",
+      "width_emu": 9144000,
+      "height_emu": 6858000
+    },
+    {
+      "check": "shape_count_slide_0",
+      "status": "PASS",
+      "value": 2
+    },
+    {
+      "check": "shape_exists_slide0_sh2",
+      "status": "PASS"
+    },
+    {
+      "check": "bbox_slide0_sh2",
+      "status": "PASS"
+    },
+    {
+      "check": "font_size_slide0_sh2",
+      "status": "PASS",
+      "value_pt": null
+    },
+    {
+      "check": "font_family_slide0_sh2",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "font_color_slide0_sh2",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "text_replaced_slide0_sh2",
+      "status": "PASS",
+      "original": "Presentation Title",
+      "output": "Renewable Energy Transition"
+    },
+    {
+      "check": "shape_exists_slide0_sh3",
+      "status": "PASS"
+    },
+    {
+      "check": "bbox_slide0_sh3",
+      "status": "PASS"
+    },
+    {
+      "check": "font_size_slide0_sh3",
+      "status": "PASS",
+      "value_pt": null
+    },
+    {
+      "check": "font_family_slide0_sh3",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "font_color_slide0_sh3",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "text_replaced_slide0_sh3",
+      "status": "PASS",
+      "original": "Author\nDepartment\nDate\nLocation",
+      "output": "Solar panel installations\nWind energy partnerships\nCarbon of"
+    },
+    {
+      "check": "shape_count_slide_1",
+      "status": "PASS",
+      "value": 3
+    },
+    {
+      "check": "shape_exists_slide1_sh2",
+      "status": "PASS"
+    },
+    {
+      "check": "bbox_slide1_sh2",
+      "status": "PASS"
+    },
+    {
+      "check": "font_size_slide1_sh2",
+      "status": "PASS",
+      "value_pt": 28.0
+    },
+    {
+      "check": "font_family_slide1_sh2",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "font_color_slide1_sh2",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "text_replaced_slide1_sh2",
+      "status": "PASS",
+      "original": "Presentation Title",
+      "output": "Renewable Energy Transition"
+    },
+    {
+      "check": "shape_exists_slide1_sh3",
+      "status": "PASS"
+    },
+    {
+      "check": "bbox_slide1_sh3",
+      "status": "PASS"
+    },
+    {
+      "check": "font_size_slide1_sh3",
+      "status": "PASS",
+      "value_pt": 18.0
+    },
+    {
+      "check": "font_family_slide1_sh3",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "font_color_slide1_sh3",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "text_replaced_slide1_sh3",
+      "status": "PASS",
+      "original": "Author\nDepartment\nDate\nLocation",
+      "output": "Solar panel installations\nWind energy partnerships\nCarbon of"
+    },
+    {
+      "check": "shape_exists_slide1_sh6",
+      "status": "PASS"
+    },
+    {
+      "check": "bbox_slide1_sh6",
+      "status": "PASS"
+    },
+    {
+      "check": "shape_count_slide_2",
+      "status": "PASS",
+      "value": 4
+    },
+    {
+      "check": "shape_exists_slide2_sh7",
+      "status": "PASS"
+    },
+    {
+      "check": "bbox_slide2_sh7",
+      "status": "PASS"
+    },
+    {
+      "check": "font_size_slide2_sh7",
+      "status": "PASS",
+      "value_pt": null
+    },
+    {
+      "check": "font_family_slide2_sh7",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "font_color_slide2_sh7",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "text_empty_ok_slide2_sh7",
+      "status": "PASS",
+      "detail": "original was empty, decorative shape"
+    },
+    {
+      "check": "shape_exists_slide2_sh6",
+      "status": "PASS"
+    },
+    {
+      "check": "bbox_slide2_sh6",
+      "status": "PASS"
+    },
+    {
+      "check": "shape_exists_slide2_sh9",
+      "status": "PASS"
+    },
+    {
+      "check": "bbox_slide2_sh9",
+      "status": "PASS"
+    },
+    {
+      "check": "font_size_slide2_sh9",
+      "status": "PASS",
+      "value_pt": 28.0
+    },
+    {
+      "check": "font_family_slide2_sh9",
+      "status": "PASS",
+      "value": "Arial"
+    },
+    {
+      "check": "font_color_slide2_sh9",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "text_replaced_slide2_sh9",
+      "status": "PASS",
+      "original": "Presentation Title",
+      "output": "Renewable Energy Transition"
+    },
+    {
+      "check": "shape_exists_slide2_sh11",
+      "status": "PASS"
+    },
+    {
+      "check": "bbox_slide2_sh11",
+      "status": "PASS"
+    },
+    {
+      "check": "font_size_slide2_sh11",
+      "status": "PASS",
+      "value_pt": null
+    },
+    {
+      "check": "font_family_slide2_sh11",
+      "status": "PASS",
+      "value": "Arial"
+    },
+    {
+      "check": "font_color_slide2_sh11",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "text_replaced_slide2_sh11",
+      "status": "PASS",
+      "original": "Author\nDepartment\nDate\nLocation",
+      "output": "Solar panel installations\nWind energy partnerships\nCarbon of"
+    },
+    {
+      "check": "shape_count_slide_3",
+      "status": "PASS",
+      "value": 3
+    },
+    {
+      "check": "shape_exists_slide3_sh2",
+      "status": "PASS"
+    },
+    {
+      "check": "bbox_slide3_sh2",
+      "status": "PASS"
+    },
+    {
+      "check": "font_size_slide3_sh2",
+      "status": "PASS",
+      "value_pt": null
+    },
+    {
+      "check": "font_family_slide3_sh2",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "font_color_slide3_sh2",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "text_replaced_slide3_sh2",
+      "status": "PASS",
+      "original": "GraphTitle",
+      "output": "Renewable Energy Transition"
+    },
+    {
+      "check": "shape_exists_slide3_sh4",
+      "status": "PASS"
+    },
+    {
+      "check": "bbox_slide3_sh4",
+      "status": "PASS"
+    },
+    {
+      "check": "font_size_slide3_sh4",
+      "status": "PASS",
+      "value_pt": null
+    },
+    {
+      "check": "font_family_slide3_sh4",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "font_color_slide3_sh4",
+      "status": "PASS",
+      "value": "#C70000"
+    },
+    {
+      "check": "text_replaced_slide3_sh4",
+      "status": "PASS",
+      "original": "Additional Notes - Lorem ipsum dolor sit amet, consectetuer ",
+      "output": "Our company is transitioning to 100% renewable energy by 203"
+    },
+    {
+      "check": "shape_exists_slide3_sh5",
+      "status": "PASS"
+    },
+    {
+      "check": "bbox_slide3_sh5",
+      "status": "PASS"
+    },
+    {
+      "check": "shape_count_slide_4",
+      "status": "PASS",
+      "value": 2
+    },
+    {
+      "check": "shape_exists_slide4_sh2",
+      "status": "PASS"
+    },
+    {
+      "check": "bbox_slide4_sh2",
+      "status": "PASS"
+    },
+    {
+      "check": "font_size_slide4_sh2",
+      "status": "PASS",
+      "value_pt": null
+    },
+    {
+      "check": "font_family_slide4_sh2",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "font_color_slide4_sh2",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "text_replaced_slide4_sh2",
+      "status": "PASS",
+      "original": "Chart Title",
+      "output": "Renewable Energy Transition"
+    },
+    {
+      "check": "shape_exists_slide4_sh4",
+      "status": "PASS"
+    },
+    {
+      "check": "bbox_slide4_sh4",
+      "status": "PASS"
+    },
+    {
+      "check": "shape_count_slide_5",
+      "status": "PASS",
+      "value": 2
+    },
+    {
+      "check": "shape_exists_slide5_sh2",
+      "status": "PASS"
+    },
+    {
+      "check": "bbox_slide5_sh2",
+      "status": "PASS"
+    },
+    {
+      "check": "font_size_slide5_sh2",
+      "status": "PASS",
+      "value_pt": null
+    },
+    {
+      "check": "font_family_slide5_sh2",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "font_color_slide5_sh2",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "text_replaced_slide5_sh2",
+      "status": "PASS",
+      "original": "List Title",
+      "output": "Renewable Energy"
+    },
+    {
+      "check": "shape_exists_slide5_sh3",
+      "status": "PASS"
+    },
+    {
+      "check": "bbox_slide5_sh3",
+      "status": "PASS"
+    },
+    {
+      "check": "font_size_slide5_sh3",
+      "status": "PASS",
+      "value_pt": 20.0
+    },
+    {
+      "check": "font_family_slide5_sh3",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "font_color_slide5_sh3",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "text_replaced_slide5_sh3",
+      "status": "PASS",
+      "original": "Lorem ipsum dolor sit amet \nAenean commodo ligula eget dolor",
+      "output": "Solar panel installations\nWind energy partnerships\nCarbon of"
+    },
+    {
+      "check": "shape_count_slide_6",
+      "status": "PASS",
+      "value": 2
+    },
+    {
+      "check": "shape_exists_slide6_sh2",
+      "status": "PASS"
+    },
+    {
+      "check": "bbox_slide6_sh2",
+      "status": "PASS"
+    },
+    {
+      "check": "font_size_slide6_sh2",
+      "status": "PASS",
+      "value_pt": null
+    },
+    {
+      "check": "font_family_slide6_sh2",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "font_color_slide6_sh2",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "text_replaced_slide6_sh2",
+      "status": "PASS",
+      "original": "Slide Title",
+      "output": "Renewable Energy Transition"
+    },
+    {
+      "check": "shape_exists_slide6_sh3",
+      "status": "PASS"
+    },
+    {
+      "check": "bbox_slide6_sh3",
+      "status": "PASS"
+    },
+    {
+      "check": "font_size_slide6_sh3",
+      "status": "PASS",
+      "value_pt": 20.0
+    },
+    {
+      "check": "font_family_slide6_sh3",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "font_color_slide6_sh3",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "text_replaced_slide6_sh3",
+      "status": "PASS",
+      "original": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ae",
+      "output": "Solar panel installations\nWind energy partnerships\nCarbon of"
+    },
+    {
+      "check": "shape_count_slide_7",
+      "status": "PASS",
+      "value": 3
+    },
+    {
+      "check": "shape_exists_slide7_sh3",
+      "status": "PASS"
+    },
+    {
+      "check": "bbox_slide7_sh3",
+      "status": "PASS"
+    },
+    {
+      "check": "font_size_slide7_sh3",
+      "status": "PASS",
+      "value_pt": null
+    },
+    {
+      "check": "font_family_slide7_sh3",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "font_color_slide7_sh3",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "text_replaced_slide7_sh3",
+      "status": "PASS",
+      "original": "Type image caption here.",
+      "output": "Transitioning to renewable energy with solar and wind"
+    },
+    {
+      "check": "shape_exists_slide7_sh4",
+      "status": "PASS"
+    },
+    {
+      "check": "bbox_slide7_sh4",
+      "status": "PASS"
+    },
+    {
+      "check": "font_size_slide7_sh4",
+      "status": "PASS",
+      "value_pt": null
+    },
+    {
+      "check": "font_family_slide7_sh4",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "font_color_slide7_sh4",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "text_replaced_slide7_sh4",
+      "status": "PASS",
+      "original": "Slide Title",
+      "output": "Renewable Energy Transition"
+    },
+    {
+      "check": "shape_exists_slide7_sh5",
+      "status": "PASS"
+    },
+    {
+      "check": "bbox_slide7_sh5",
+      "status": "PASS"
+    },
+    {
+      "check": "shape_count_slide_8",
+      "status": "PASS",
+      "value": 2
+    },
+    {
+      "check": "shape_exists_slide8_sh2",
+      "status": "PASS"
+    },
+    {
+      "check": "bbox_slide8_sh2",
+      "status": "PASS"
+    },
+    {
+      "check": "font_size_slide8_sh2",
+      "status": "PASS",
+      "value_pt": 28.0
+    },
+    {
+      "check": "font_family_slide8_sh2",
+      "status": "PASS",
+      "value": null
+    },
+    {
+      "check": "font_color_slide8_sh2",
+      "status": "PASS",
+      "value": "#7F7F7F"
+    },
+    {
+      "check": "text_replaced_slide8_sh2",
+      "status": "PASS",
+      "original": "Page Title",
+      "output": "Renewable Energy Transition"
+    },
+    {
+      "check": "shape_exists_slide8_sh5",
+      "status": "PASS"
+    },
+    {
+      "check": "bbox_slide8_sh5",
+      "status": "PASS"
+    }
+  ]
+}

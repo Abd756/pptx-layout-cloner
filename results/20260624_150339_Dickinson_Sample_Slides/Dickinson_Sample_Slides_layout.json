@@ -1,0 +1,3290 @@
+{
+  "source_file": "Dickinson_Sample_Slides.pptx",
+  "slide_width_emu": 9144000,
+  "slide_height_emu": 6858000,
+  "slide_width_pt": 720.0,
+  "slide_height_pt": 540.0,
+  "slide_count": 9,
+  "slides": [
+    {
+      "slide_index": 0,
+      "slide_id": 257,
+      "layout_name": "Title Slide",
+      "shape_count": 2,
+      "shapes": [
+        {
+          "shape_id": 2,
+          "shape_name": "Title 1",
+          "shape_type": "PLACEHOLDER (14)",
+          "z_order": 0,
+          "is_placeholder": true,
+          "placeholder_type": "CENTER_TITLE (3)",
+          "placeholder_idx": 0,
+          "position": {
+            "left_emu": 685800,
+            "top_emu": 2895600,
+            "width_emu": 7772400,
+            "height_emu": 1066800,
+            "left_pt": 54.0,
+            "top_pt": 228.0,
+            "width_pt": 612.0,
+            "height_pt": 84.0,
+            "left_pct": 7.5,
+            "top_pct": 42.2222,
+            "width_pct": 85.0,
+            "height_pct": 15.5556
+          },
+          "fill": {
+            "type": "NONE"
+          },
+          "has_text_frame": true,
+          "text_frame": {
+            "full_text": "Presentation Title",
+            "word_wrap": null,
+            "auto_size": null,
+            "paragraph_count": 1,
+            "paragraphs": [
+              {
+                "full_text": "Presentation Title",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": null,
+                "runs": [
+                  {
+                    "text": "Presentation Title",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "shape_id": 3,
+          "shape_name": "Subtitle 2",
+          "shape_type": "PLACEHOLDER (14)",
+          "z_order": 1,
+          "is_placeholder": true,
+          "placeholder_type": "SUBTITLE (4)",
+          "placeholder_idx": 1,
+          "position": {
+            "left_emu": 685800,
+            "top_emu": 4648200,
+            "width_emu": 6400800,
+            "height_emu": 1905000,
+            "left_pt": 54.0,
+            "top_pt": 366.0,
+            "width_pt": 504.0,
+            "height_pt": 150.0,
+            "left_pct": 7.5,
+            "top_pct": 67.7778,
+            "width_pct": 70.0,
+            "height_pct": 27.7778
+          },
+          "fill": {
+            "type": "NONE"
+          },
+          "has_text_frame": true,
+          "text_frame": {
+            "full_text": "Author\nDepartment\nDate\nLocation",
+            "word_wrap": null,
+            "auto_size": null,
+            "paragraph_count": 4,
+            "paragraphs": [
+              {
+                "full_text": "Author",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": null,
+                "runs": [
+                  {
+                    "text": "Author",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              },
+              {
+                "full_text": "Department",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": null,
+                "runs": [
+                  {
+                    "text": "Department",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              },
+              {
+                "full_text": "Date",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": null,
+                "runs": [
+                  {
+                    "text": "Date",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              },
+              {
+                "full_text": "Location",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": null,
+                "runs": [
+                  {
+                    "text": "Location",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slide_index": 1,
+      "slide_id": 258,
+      "layout_name": "Section Header",
+      "shape_count": 3,
+      "shapes": [
+        {
+          "shape_id": 2,
+          "shape_name": "Title 1",
+          "shape_type": "PLACEHOLDER (14)",
+          "z_order": 0,
+          "is_placeholder": true,
+          "placeholder_type": "TITLE (1)",
+          "placeholder_idx": 0,
+          "position": {
+            "left_emu": 722313,
+            "top_emu": 2906713,
+            "width_emu": 7772400,
+            "height_emu": 1362075,
+            "left_pt": 56.88,
+            "top_pt": 228.88,
+            "width_pt": 612.0,
+            "height_pt": 107.25,
+            "left_pct": 7.8993,
+            "top_pct": 42.3843,
+            "width_pct": 85.0,
+            "height_pct": 19.8611
+          },
+          "fill": {
+            "type": "NONE"
+          },
+          "has_text_frame": true,
+          "text_frame": {
+            "full_text": "Presentation Title",
+            "word_wrap": null,
+            "auto_size": "TEXT_TO_FIT_SHAPE (2)",
+            "paragraph_count": 1,
+            "paragraphs": [
+              {
+                "full_text": "Presentation Title",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": null,
+                "runs": [
+                  {
+                    "text": "Presentation Title",
+                    "font_name": null,
+                    "font_size_pt": 28.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "shape_id": 3,
+          "shape_name": "Subtitle 2",
+          "shape_type": "PLACEHOLDER (14)",
+          "z_order": 1,
+          "is_placeholder": true,
+          "placeholder_type": "BODY (2)",
+          "placeholder_idx": 1,
+          "position": {
+            "left_emu": 722313,
+            "top_emu": 4648201,
+            "width_emu": 7772400,
+            "height_emu": 1683688,
+            "left_pt": 56.88,
+            "top_pt": 366.0,
+            "width_pt": 612.0,
+            "height_pt": 132.57,
+            "left_pct": 7.8993,
+            "top_pct": 67.7778,
+            "width_pct": 85.0,
+            "height_pct": 24.5507
+          },
+          "fill": {
+            "type": "NONE"
+          },
+          "has_text_frame": true,
+          "text_frame": {
+            "full_text": "Author\nDepartment\nDate\nLocation",
+            "word_wrap": null,
+            "auto_size": "TEXT_TO_FIT_SHAPE (2)",
+            "paragraph_count": 4,
+            "paragraphs": [
+              {
+                "full_text": "Author",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": null,
+                "runs": [
+                  {
+                    "text": "Author",
+                    "font_name": null,
+                    "font_size_pt": 18.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              },
+              {
+                "full_text": "Department",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": null,
+                "runs": [
+                  {
+                    "text": "Department",
+                    "font_name": null,
+                    "font_size_pt": 18.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              },
+              {
+                "full_text": "Date",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": null,
+                "runs": [
+                  {
+                    "text": "Date",
+                    "font_name": null,
+                    "font_size_pt": 18.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              },
+              {
+                "full_text": "Location",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": null,
+                "runs": [
+                  {
+                    "text": "Location",
+                    "font_name": null,
+                    "font_size_pt": 18.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "shape_id": 6,
+          "shape_name": "Picture 5",
+          "shape_type": "PICTURE (13)",
+          "z_order": 2,
+          "is_placeholder": false,
+          "placeholder_type": null,
+          "placeholder_idx": null,
+          "position": {
+            "left_emu": 722313,
+            "top_emu": 790388,
+            "width_emu": 4650102,
+            "height_emu": 917148,
+            "left_pt": 56.88,
+            "top_pt": 62.24,
+            "width_pt": 366.15,
+            "height_pt": 72.22,
+            "left_pct": 7.8993,
+            "top_pct": 11.5251,
+            "width_pct": 50.8541,
+            "height_pct": 13.3734
+          },
+          "fill": {
+            "type": "unknown"
+          },
+          "has_text_frame": false,
+          "text_frame": null
+        }
+      ]
+    },
+    {
+      "slide_index": 2,
+      "slide_id": 259,
+      "layout_name": "Section Header",
+      "shape_count": 4,
+      "shapes": [
+        {
+          "shape_id": 7,
+          "shape_name": "Rectangle 6",
+          "shape_type": "AUTO_SHAPE (1)",
+          "z_order": 0,
+          "is_placeholder": false,
+          "placeholder_type": null,
+          "placeholder_idx": null,
+          "position": {
+            "left_emu": 0,
+            "top_emu": 0,
+            "width_emu": 9144000,
+            "height_emu": 6858000,
+            "left_pt": 0.0,
+            "top_pt": 0.0,
+            "width_pt": 720.0,
+            "height_pt": 540.0,
+            "left_pct": 0.0,
+            "top_pct": 0.0,
+            "width_pct": 100.0,
+            "height_pct": 100.0
+          },
+          "fill": {
+            "type": "SOLID (1)"
+          },
+          "has_text_frame": true,
+          "text_frame": {
+            "full_text": "",
+            "word_wrap": null,
+            "auto_size": null,
+            "paragraph_count": 1,
+            "paragraphs": [
+              {
+                "full_text": "",
+                "alignment": "CENTER",
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": null,
+                "runs": []
+              }
+            ]
+          }
+        },
+        {
+          "shape_id": 6,
+          "shape_name": "Picture 5",
+          "shape_type": "PICTURE (13)",
+          "z_order": 1,
+          "is_placeholder": false,
+          "placeholder_type": null,
+          "placeholder_idx": null,
+          "position": {
+            "left_emu": 722313,
+            "top_emu": 790388,
+            "width_emu": 4650102,
+            "height_emu": 917148,
+            "left_pt": 56.88,
+            "top_pt": 62.24,
+            "width_pt": 366.15,
+            "height_pt": 72.22,
+            "left_pct": 7.8993,
+            "top_pct": 11.5251,
+            "width_pct": 50.8541,
+            "height_pct": 13.3734
+          },
+          "fill": {
+            "type": "unknown"
+          },
+          "has_text_frame": false,
+          "text_frame": null
+        },
+        {
+          "shape_id": 9,
+          "shape_name": "Title 1",
+          "shape_type": "TEXT_BOX (17)",
+          "z_order": 2,
+          "is_placeholder": false,
+          "placeholder_type": null,
+          "placeholder_idx": null,
+          "position": {
+            "left_emu": 722313,
+            "top_emu": 2906713,
+            "width_emu": 7772400,
+            "height_emu": 1362075,
+            "left_pt": 56.88,
+            "top_pt": 228.88,
+            "width_pt": 612.0,
+            "height_pt": 107.25,
+            "left_pct": 7.8993,
+            "top_pct": 42.3843,
+            "width_pct": 85.0,
+            "height_pct": 19.8611
+          },
+          "fill": {
+            "type": "NONE"
+          },
+          "has_text_frame": true,
+          "text_frame": {
+            "full_text": "Presentation Title",
+            "word_wrap": null,
+            "auto_size": "TEXT_TO_FIT_SHAPE (2)",
+            "paragraph_count": 1,
+            "paragraphs": [
+              {
+                "full_text": "Presentation Title",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": null,
+                "runs": [
+                  {
+                    "text": "Presentation Title",
+                    "font_name": "Arial",
+                    "font_size_pt": 28.0,
+                    "bold": true,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "shape_id": 11,
+          "shape_name": "Subtitle 2",
+          "shape_type": "TEXT_BOX (17)",
+          "z_order": 3,
+          "is_placeholder": false,
+          "placeholder_type": null,
+          "placeholder_idx": null,
+          "position": {
+            "left_emu": 722313,
+            "top_emu": 4648201,
+            "width_emu": 7772400,
+            "height_emu": 1683688,
+            "left_pt": 56.88,
+            "top_pt": 366.0,
+            "width_pt": 612.0,
+            "height_pt": 132.57,
+            "left_pct": 7.8993,
+            "top_pct": 67.7778,
+            "width_pct": 85.0,
+            "height_pct": 24.5507
+          },
+          "fill": {
+            "type": "NONE"
+          },
+          "has_text_frame": true,
+          "text_frame": {
+            "full_text": "Author\nDepartment\nDate\nLocation",
+            "word_wrap": null,
+            "auto_size": "TEXT_TO_FIT_SHAPE (2)",
+            "paragraph_count": 4,
+            "paragraphs": [
+              {
+                "full_text": "Author",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": null,
+                "runs": [
+                  {
+                    "text": "Author",
+                    "font_name": "Arial",
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              },
+              {
+                "full_text": "Department",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": null,
+                "runs": [
+                  {
+                    "text": "Department",
+                    "font_name": "Arial",
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              },
+              {
+                "full_text": "Date",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": null,
+                "runs": [
+                  {
+                    "text": "Date",
+                    "font_name": "Arial",
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              },
+              {
+                "full_text": "Location",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": null,
+                "runs": [
+                  {
+                    "text": "Location",
+                    "font_name": "Arial",
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slide_index": 3,
+      "slide_id": 260,
+      "layout_name": "Title and Content (Graph) With Notes",
+      "shape_count": 3,
+      "shapes": [
+        {
+          "shape_id": 2,
+          "shape_name": "Title 1",
+          "shape_type": "PLACEHOLDER (14)",
+          "z_order": 0,
+          "is_placeholder": true,
+          "placeholder_type": "TITLE (1)",
+          "placeholder_idx": 0,
+          "position": {
+            "left_emu": 533400,
+            "top_emu": 990600,
+            "width_emu": 3008313,
+            "height_emu": 552450,
+            "left_pt": 42.0,
+            "top_pt": 78.0,
+            "width_pt": 236.88,
+            "height_pt": 43.5,
+            "left_pct": 5.8333,
+            "top_pct": 14.4444,
+            "width_pct": 32.8993,
+            "height_pct": 8.0556
+          },
+          "fill": {
+            "type": "NONE"
+          },
+          "has_text_frame": true,
+          "text_frame": {
+            "full_text": "GraphTitle",
+            "word_wrap": null,
+            "auto_size": null,
+            "paragraph_count": 1,
+            "paragraphs": [
+              {
+                "full_text": "GraphTitle",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": null,
+                "runs": [
+                  {
+                    "text": "GraphTitle",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "shape_id": 4,
+          "shape_name": "Text Placeholder 3",
+          "shape_type": "PLACEHOLDER (14)",
+          "z_order": 1,
+          "is_placeholder": true,
+          "placeholder_type": "BODY (2)",
+          "placeholder_idx": 2,
+          "position": {
+            "left_emu": 533400,
+            "top_emu": 6019800,
+            "width_emu": 8229600,
+            "height_emu": 685799,
+            "left_pt": 42.0,
+            "top_pt": 474.0,
+            "width_pt": 648.0,
+            "height_pt": 54.0,
+            "left_pct": 5.8333,
+            "top_pct": 87.7778,
+            "width_pct": 90.0,
+            "height_pct": 10.0
+          },
+          "fill": {
+            "type": "NONE"
+          },
+          "has_text_frame": true,
+          "text_frame": {
+            "full_text": "Additional Notes - Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem",
+            "word_wrap": null,
+            "auto_size": "TEXT_TO_FIT_SHAPE (2)",
+            "paragraph_count": 1,
+            "paragraphs": [
+              {
+                "full_text": "Additional Notes - Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": null,
+                "runs": [
+                  {
+                    "text": "Additional Notes ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": "#C70000"
+                  },
+                  {
+                    "text": "- ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "Lorem",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "ipsum",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " dolor sit ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "amet",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": ", ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "consectetuer",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "adipiscing",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "elit",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": ". ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "Aenean",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "commodo",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "ligula",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "eget",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " dolor. ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "Aenean",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "massa",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": ". Cum ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "sociis",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "natoque",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "penatibus",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " et ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "magnis",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "dis",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " parturient ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "montes",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": ", ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "nascetur",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "ridiculus",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " mus. ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "Donec",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " quam ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "felis",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": ", ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "ultricies",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "nec",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": ", ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "pellentesque",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "eu",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": ", ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "pretium",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "quis",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": ", ",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "sem",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "shape_id": 5,
+          "shape_name": "Object 3",
+          "shape_type": "CHART (3)",
+          "z_order": 2,
+          "is_placeholder": true,
+          "placeholder_type": "OBJECT (7)",
+          "placeholder_idx": 1,
+          "position": {
+            "left_emu": 533400,
+            "top_emu": 1676400,
+            "width_emu": 8229600,
+            "height_emu": 4267200,
+            "left_pt": 42.0,
+            "top_pt": 132.0,
+            "width_pt": 648.0,
+            "height_pt": 336.0,
+            "left_pct": 5.8333,
+            "top_pct": 24.4444,
+            "width_pct": 90.0,
+            "height_pct": 62.2222
+          },
+          "fill": {
+            "type": "unknown"
+          },
+          "has_text_frame": false,
+          "text_frame": null
+        }
+      ]
+    },
+    {
+      "slide_index": 4,
+      "slide_id": 261,
+      "layout_name": "Title and Content",
+      "shape_count": 2,
+      "shapes": [
+        {
+          "shape_id": 2,
+          "shape_name": "Title 1",
+          "shape_type": "PLACEHOLDER (14)",
+          "z_order": 0,
+          "is_placeholder": true,
+          "placeholder_type": "TITLE (1)",
+          "placeholder_idx": 0,
+          "position": {
+            "left_emu": 533400,
+            "top_emu": 990600,
+            "width_emu": 8153400,
+            "height_emu": 533400,
+            "left_pt": 42.0,
+            "top_pt": 78.0,
+            "width_pt": 642.0,
+            "height_pt": 42.0,
+            "left_pct": 5.8333,
+            "top_pct": 14.4444,
+            "width_pct": 89.1667,
+            "height_pct": 7.7778
+          },
+          "fill": {
+            "type": "NONE"
+          },
+          "has_text_frame": true,
+          "text_frame": {
+            "full_text": "Chart Title",
+            "word_wrap": null,
+            "auto_size": null,
+            "paragraph_count": 1,
+            "paragraphs": [
+              {
+                "full_text": "Chart Title",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": null,
+                "runs": [
+                  {
+                    "text": "Chart Title",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "shape_id": 4,
+          "shape_name": "Content Placeholder 3",
+          "shape_type": "TABLE (19)",
+          "z_order": 1,
+          "is_placeholder": true,
+          "placeholder_type": "OBJECT (7)",
+          "placeholder_idx": 4294967295,
+          "position": {
+            "left_emu": 533400,
+            "top_emu": 1676400,
+            "width_emu": 8153400,
+            "height_emu": 4419597,
+            "left_pt": 42.0,
+            "top_pt": 132.0,
+            "width_pt": 642.0,
+            "height_pt": 348.0,
+            "left_pct": 5.8333,
+            "top_pct": 24.4444,
+            "width_pct": 89.1667,
+            "height_pct": 64.4444
+          },
+          "fill": {
+            "type": "unknown"
+          },
+          "has_text_frame": false,
+          "text_frame": null
+        }
+      ]
+    },
+    {
+      "slide_index": 5,
+      "slide_id": 262,
+      "layout_name": "Title and Content",
+      "shape_count": 2,
+      "shapes": [
+        {
+          "shape_id": 2,
+          "shape_name": "Title 1",
+          "shape_type": "PLACEHOLDER (14)",
+          "z_order": 0,
+          "is_placeholder": true,
+          "placeholder_type": "TITLE (1)",
+          "placeholder_idx": 0,
+          "position": {
+            "left_emu": 533400,
+            "top_emu": 990600,
+            "width_emu": 8153400,
+            "height_emu": 533400,
+            "left_pt": 42.0,
+            "top_pt": 78.0,
+            "width_pt": 642.0,
+            "height_pt": 42.0,
+            "left_pct": 5.8333,
+            "top_pct": 14.4444,
+            "width_pct": 89.1667,
+            "height_pct": 7.7778
+          },
+          "fill": {
+            "type": "NONE"
+          },
+          "has_text_frame": true,
+          "text_frame": {
+            "full_text": "List Title",
+            "word_wrap": null,
+            "auto_size": null,
+            "paragraph_count": 1,
+            "paragraphs": [
+              {
+                "full_text": "List Title",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": null,
+                "runs": [
+                  {
+                    "text": "List Title",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "shape_id": 3,
+          "shape_name": "Content Placeholder 2",
+          "shape_type": "PLACEHOLDER (14)",
+          "z_order": 1,
+          "is_placeholder": true,
+          "placeholder_type": "OBJECT (7)",
+          "placeholder_idx": 4294967295,
+          "position": {
+            "left_emu": 533400,
+            "top_emu": 1676400,
+            "width_emu": 8153400,
+            "height_emu": 4449763,
+            "left_pt": 42.0,
+            "top_pt": 132.0,
+            "width_pt": 642.0,
+            "height_pt": 350.38,
+            "left_pct": 5.8333,
+            "top_pct": 24.4444,
+            "width_pct": 89.1667,
+            "height_pct": 64.8843
+          },
+          "fill": {
+            "type": "NONE"
+          },
+          "has_text_frame": true,
+          "text_frame": {
+            "full_text": "Lorem ipsum dolor sit amet \nAenean commodo ligula eget dolor \nCum sociis natoque penatibus et magnis dis parturient montes \nDonec quam felis, ultricies nec, pellentesque eu \nLorem ipsum dolor sit amet, consectetuer adipiscing elit \nAenean massa \nAenean commodo ligula eget dolor",
+            "word_wrap": null,
+            "auto_size": "TEXT_TO_FIT_SHAPE (2)",
+            "paragraph_count": 7,
+            "paragraphs": [
+              {
+                "full_text": "Lorem ipsum dolor sit amet ",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": 6.0,
+                "runs": [
+                  {
+                    "text": "Lorem",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "ipsum",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " dolor sit ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "amet",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              },
+              {
+                "full_text": "Aenean commodo ligula eget dolor ",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": 6.0,
+                "runs": [
+                  {
+                    "text": "Aenean",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "commodo",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "ligula",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "eget",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " dolor ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              },
+              {
+                "full_text": "Cum sociis natoque penatibus et magnis dis parturient montes ",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": 6.0,
+                "runs": [
+                  {
+                    "text": "Cum ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "sociis",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "natoque",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "penatibus",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " et ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "magnis",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "dis",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " parturient ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "montes",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              },
+              {
+                "full_text": "Donec quam felis, ultricies nec, pellentesque eu ",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": 6.0,
+                "runs": [
+                  {
+                    "text": "Donec",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " quam ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "felis",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": ", ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "ultricies",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "nec",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": ", ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "pellentesque",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "eu",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              },
+              {
+                "full_text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit ",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": 6.0,
+                "runs": [
+                  {
+                    "text": "Lorem",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "ipsum",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " dolor sit ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "amet",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": ", ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "consectetuer",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "adipiscing",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "elit",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              },
+              {
+                "full_text": "Aenean massa ",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": 6.0,
+                "runs": [
+                  {
+                    "text": "Aenean",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "massa",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              },
+              {
+                "full_text": "Aenean commodo ligula eget dolor",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": 6.0,
+                "runs": [
+                  {
+                    "text": "Aenean",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "commodo",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "ligula",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "eget",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " dolor",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slide_index": 6,
+      "slide_id": 263,
+      "layout_name": "Title and Content",
+      "shape_count": 2,
+      "shapes": [
+        {
+          "shape_id": 2,
+          "shape_name": "Title 1",
+          "shape_type": "PLACEHOLDER (14)",
+          "z_order": 0,
+          "is_placeholder": true,
+          "placeholder_type": "TITLE (1)",
+          "placeholder_idx": 0,
+          "position": {
+            "left_emu": 533400,
+            "top_emu": 990600,
+            "width_emu": 8153400,
+            "height_emu": 533400,
+            "left_pt": 42.0,
+            "top_pt": 78.0,
+            "width_pt": 642.0,
+            "height_pt": 42.0,
+            "left_pct": 5.8333,
+            "top_pct": 14.4444,
+            "width_pct": 89.1667,
+            "height_pct": 7.7778
+          },
+          "fill": {
+            "type": "NONE"
+          },
+          "has_text_frame": true,
+          "text_frame": {
+            "full_text": "Slide Title",
+            "word_wrap": null,
+            "auto_size": null,
+            "paragraph_count": 1,
+            "paragraphs": [
+              {
+                "full_text": "Slide Title",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": null,
+                "runs": [
+                  {
+                    "text": "Slide Title",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "shape_id": 3,
+          "shape_name": "Content Placeholder 2",
+          "shape_type": "PLACEHOLDER (14)",
+          "z_order": 1,
+          "is_placeholder": true,
+          "placeholder_type": "OBJECT (7)",
+          "placeholder_idx": 4294967295,
+          "position": {
+            "left_emu": 533400,
+            "top_emu": 1676400,
+            "width_emu": 8153400,
+            "height_emu": 4449763,
+            "left_pt": 42.0,
+            "top_pt": 132.0,
+            "width_pt": 642.0,
+            "height_pt": 350.38,
+            "left_pct": 5.8333,
+            "top_pct": 24.4444,
+            "width_pct": 89.1667,
+            "height_pct": 64.8843
+          },
+          "fill": {
+            "type": "NONE"
+          },
+          "has_text_frame": true,
+          "text_frame": {
+            "full_text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.\n\nAenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.\n",
+            "word_wrap": null,
+            "auto_size": null,
+            "paragraph_count": 4,
+            "paragraphs": [
+              {
+                "full_text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": 6.0,
+                "runs": [
+                  {
+                    "text": "Lorem",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "ipsum",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " dolor sit ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "amet",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": ", ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "consectetuer",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "adipiscing",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "elit",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": ". ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "Aenean",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "commodo",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "ligula",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "eget",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " dolor. ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "Aenean",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "massa",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": ". Cum ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "sociis",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "natoque",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "penatibus",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " et ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "magnis",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "dis",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " parturient ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "montes",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": ", ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "nascetur",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "ridiculus",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " mus. ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "Donec",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " quam ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "felis",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": ", ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "ultricies",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "nec",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": ", ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "pellentesque",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "eu",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": ", ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "pretium",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "quis",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": ", sem",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": ".",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              },
+              {
+                "full_text": "",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": 6.0,
+                "runs": []
+              },
+              {
+                "full_text": "Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": 6.0,
+                "runs": [
+                  {
+                    "text": "Aenean",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "massa",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": ". Cum ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "sociis",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "natoque",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "penatibus",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " et ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "magnis",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "dis",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " parturient ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "montes",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": ", ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "nascetur",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "ridiculus",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " mus. ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "Donec",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " quam ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "felis",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": ", ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "ultricies",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "nec",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": ", ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "pellentesque",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "eu",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": ", ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "pretium",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": " ",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": "quis",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  },
+                  {
+                    "text": ", sem.",
+                    "font_name": null,
+                    "font_size_pt": 20.0,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              },
+              {
+                "full_text": "",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": 6.0,
+                "runs": []
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slide_index": 7,
+      "slide_id": 264,
+      "layout_name": "Picture with Caption",
+      "shape_count": 3,
+      "shapes": [
+        {
+          "shape_id": 3,
+          "shape_name": "Text Placeholder 2",
+          "shape_type": "PLACEHOLDER (14)",
+          "z_order": 0,
+          "is_placeholder": true,
+          "placeholder_type": "BODY (2)",
+          "placeholder_idx": 2,
+          "position": {
+            "left_emu": 533400,
+            "top_emu": 6248400,
+            "width_emu": 8153400,
+            "height_emu": 347662,
+            "left_pt": 42.0,
+            "top_pt": 492.0,
+            "width_pt": 642.0,
+            "height_pt": 27.37,
+            "left_pct": 5.8333,
+            "top_pct": 91.1111,
+            "width_pct": 89.1667,
+            "height_pct": 5.0694
+          },
+          "fill": {
+            "type": "NONE"
+          },
+          "has_text_frame": true,
+          "text_frame": {
+            "full_text": "Type image caption here.",
+            "word_wrap": null,
+            "auto_size": null,
+            "paragraph_count": 1,
+            "paragraphs": [
+              {
+                "full_text": "Type image caption here.",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": null,
+                "runs": [
+                  {
+                    "text": "Type image caption here.",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "shape_id": 4,
+          "shape_name": "Title 3",
+          "shape_type": "PLACEHOLDER (14)",
+          "z_order": 1,
+          "is_placeholder": true,
+          "placeholder_type": "TITLE (1)",
+          "placeholder_idx": 0,
+          "position": {
+            "left_emu": 533400,
+            "top_emu": 1066800,
+            "width_emu": 8153400,
+            "height_emu": 457200,
+            "left_pt": 42.0,
+            "top_pt": 84.0,
+            "width_pt": 642.0,
+            "height_pt": 36.0,
+            "left_pct": 5.8333,
+            "top_pct": 15.5556,
+            "width_pct": 89.1667,
+            "height_pct": 6.6667
+          },
+          "fill": {
+            "type": "NONE"
+          },
+          "has_text_frame": true,
+          "text_frame": {
+            "full_text": "Slide Title",
+            "word_wrap": null,
+            "auto_size": "TEXT_TO_FIT_SHAPE (2)",
+            "paragraph_count": 1,
+            "paragraphs": [
+              {
+                "full_text": "Slide Title",
+                "alignment": null,
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": null,
+                "runs": [
+                  {
+                    "text": "Slide Title",
+                    "font_name": null,
+                    "font_size_pt": null,
+                    "bold": null,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": null
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "shape_id": 5,
+          "shape_name": "Content Placeholder 6",
+          "shape_type": "PLACEHOLDER (14)",
+          "z_order": 2,
+          "is_placeholder": true,
+          "placeholder_type": "PICTURE (18)",
+          "placeholder_idx": 1,
+          "position": {
+            "left_emu": 609600,
+            "top_emu": 1676400,
+            "width_emu": 8001000,
+            "height_emu": 4495800,
+            "left_pt": 48.0,
+            "top_pt": 132.0,
+            "width_pt": 630.0,
+            "height_pt": 354.0,
+            "left_pct": 6.6667,
+            "top_pct": 24.4444,
+            "width_pct": 87.5,
+            "height_pct": 65.5556
+          },
+          "fill": {
+            "type": "unknown"
+          },
+          "has_text_frame": false,
+          "text_frame": null
+        }
+      ]
+    },
+    {
+      "slide_index": 8,
+      "slide_id": 265,
+      "layout_name": "Title and Content",
+      "shape_count": 2,
+      "shapes": [
+        {
+          "shape_id": 2,
+          "shape_name": "Title 1",
+          "shape_type": "PLACEHOLDER (14)",
+          "z_order": 0,
+          "is_placeholder": true,
+          "placeholder_type": "TITLE (1)",
+          "placeholder_idx": 0,
+          "position": {
+            "left_emu": 508000,
+            "top_emu": 1038318,
+            "width_emu": 8229600,
+            "height_emu": 532965,
+            "left_pt": 40.0,
+            "top_pt": 81.76,
+            "width_pt": 648.0,
+            "height_pt": 41.97,
+            "left_pct": 5.5556,
+            "top_pct": 15.1402,
+            "width_pct": 90.0,
+            "height_pct": 7.7714
+          },
+          "fill": {
+            "type": "NONE"
+          },
+          "has_text_frame": true,
+          "text_frame": {
+            "full_text": "Page Title",
+            "word_wrap": null,
+            "auto_size": null,
+            "paragraph_count": 1,
+            "paragraphs": [
+              {
+                "full_text": "Page Title",
+                "alignment": "LEFT",
+                "indent_level": 0,
+                "space_before_pt": null,
+                "space_after_pt": null,
+                "runs": [
+                  {
+                    "text": "Page Title",
+                    "font_name": null,
+                    "font_size_pt": 28.0,
+                    "bold": true,
+                    "italic": null,
+                    "underline": null,
+                    "color_hex": "#7F7F7F"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "shape_id": 5,
+          "shape_name": "Picture 4",
+          "shape_type": "PICTURE (13)",
+          "z_order": 1,
+          "is_placeholder": false,
+          "placeholder_type": null,
+          "placeholder_idx": null,
+          "position": {
+            "left_emu": 593100,
+            "top_emu": 379361,
+            "width_emu": 1566913,
+            "height_emu": 309045,
+            "left_pt": 46.7,
+            "top_pt": 29.87,
+            "width_pt": 123.38,
+            "height_pt": 24.33,
+            "left_pct": 6.4862,
+            "top_pct": 5.5317,
+            "width_pct": 17.136,
+            "height_pct": 4.5063
+          },
+          "fill": {
+            "type": "unknown"
+          },
+          "has_text_frame": false,
+          "text_frame": null
+        }
+      ]
+    }
+  ]
+}

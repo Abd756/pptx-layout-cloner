@@ -1,0 +1,71 @@
+{
+  "source_file": "Dickinson_Sample_Slides.pptx",
+  "topic": "Renewable Energy Transition",
+  "mode": "mapper",
+  "user_content": "Our company is transitioning to 100% renewable energy by 2030. Key initiatives include solar panel installations across all facilities, wind energy partnerships signed with 3 providers, carbon offset program launched with 50 partners, employee green commute program with 40% adoption, smart grid integration reducing energy waste by 25%, and R&D investment of 15 million dollars in clean technology.",
+  "model": "llama-3.3-70b-versatile",
+  "slides": {
+    "slide_0": {
+      "2": "Renewable Energy Transition",
+      "3": [
+        "Solar panel installations",
+        "Wind energy partnerships",
+        "Carbon offset program",
+        "Smart grid integration"
+      ]
+    },
+    "slide_1": {
+      "2": "Renewable Energy Transition",
+      "3": [
+        "Solar panel installations",
+        "Wind energy partnerships",
+        "Carbon offset program",
+        "Smart grid integration"
+      ]
+    },
+    "slide_2": {
+      "9": "Renewable Energy Transition",
+      "11": [
+        "Solar panel installations",
+        "Wind energy partnerships",
+        "Carbon offset program",
+        "Smart grid integration"
+      ]
+    },
+    "slide_3": {
+      "2": "Renewable Energy Transition",
+      "4": "Our company is transitioning to 100% renewable energy by 2030"
+    },
+    "slide_4": {
+      "2": "Renewable Energy Transition"
+    },
+    "slide_5": {
+      "2": "Renewable Energy",
+      "3": [
+        "Solar panel installations",
+        "Wind energy partnerships",
+        "Carbon offset program",
+        "Employee green commute",
+        "Smart grid integration",
+        "R&D investment of 15 million",
+        "100% renewable energy by 2030"
+      ]
+    },
+    "slide_6": {
+      "2": "Renewable Energy Transition",
+      "3": [
+        "Solar panel installations",
+        "Wind energy partnerships",
+        "Carbon offset program launched",
+        "Smart grid integration"
+      ]
+    },
+    "slide_7": {
+      "3": "Transitioning to renewable energy with solar and wind",
+      "4": "Renewable Energy Transition"
+    },
+    "slide_8": {
+      "2": "Renewable Energy Transition"
+    }
+  }
+}
