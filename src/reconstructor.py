@@ -116,6 +116,35 @@ def _replace_list(shape, new_texts: list):
         # Phase 2 already matched counts, so i >= len(paras) shouldn't happen
 
 
+def _replace_table(shape, new_grid: list):
+    """
+    Replace table cell text row by row.
+    new_grid is a 2-D list: new_grid[row][col] = cell text string.
+    Uses the same _consolidate_and_set XML surgery as regular shapes.
+    """
+    table = shape.table
+    for r_idx, row_data in enumerate(new_grid):
+        if r_idx >= len(table.rows):
+            break
+        for c_idx, cell_text in enumerate(row_data):
+            if c_idx >= len(table.rows[r_idx].cells):
+                break
+            cell = table.rows[r_idx].cells[c_idx]
+            try:
+                tx_body = cell.text_frame._txBody
+            except Exception:
+                continue
+            paras = tx_body.findall(f'{{{A}}}p')
+            if not paras:
+                continue
+            _consolidate_and_set(paras[0], _sanitize(str(cell_text)))
+            for para in paras[1:]:
+                for run in para.findall(f'{{{A}}}r'):
+                    t = run.find(f'{{{A}}}t')
+                    if t is not None:
+                        t.text = ''
+
+
 # ---------------------------------------------------------------------------
 # Public entry point
 # ---------------------------------------------------------------------------
@@ -159,6 +188,16 @@ def reconstruct(pptx_path: str, content_mapping_path: str, output_path: str) -> 
             if shape is None:
                 print(f"\n    [WARN] shape_id {shape_id_str} not found on slide {slide_idx}")
                 skipped += 1
+                continue
+
+            # Table shape — new_content is a 2-D list [[row0], [row1], ...]
+            if shape.has_table:
+                if (isinstance(new_content, list) and new_content
+                        and isinstance(new_content[0], list)):
+                    _replace_table(shape, new_content)
+                    replaced += 1
+                else:
+                    skipped += 1
                 continue
 
             if not shape.has_text_frame:

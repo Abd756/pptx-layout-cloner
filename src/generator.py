@@ -30,7 +30,7 @@ SKIP_SHAPE_TYPES = {"CHART", "TABLE", "PICTURE"}
 # ---------------------------------------------------------------------------
 
 def _collect_targets(slide: dict) -> list[dict]:
-    """Return list of shapes on this slide that need new text content."""
+    """Return list of text shapes on this slide that need new content."""
     targets = []
     for shape in slide.get("shapes", []):
         if not shape.get("has_text_frame"):
@@ -56,6 +56,22 @@ def _collect_targets(slide: dict) -> list[dict]:
             "char_hint":        len(full_text),
         })
 
+    return targets
+
+
+def _collect_table_targets(slide: dict) -> list[dict]:
+    """Return list of table shapes on this slide."""
+    targets = []
+    for shape in slide.get("shapes", []):
+        if not shape.get("has_table"):
+            continue
+        td = shape.get("table_data")
+        if not td or not td.get("cells"):
+            continue
+        targets.append({
+            "shape_id":  str(shape["shape_id"]),
+            "table_data": td,
+        })
     return targets
 
 
@@ -134,7 +150,8 @@ def _call_plan(client: Groq, layout: dict, topic: str, user_content: str) -> dic
 # ---------------------------------------------------------------------------
 
 def _build_prompt(slide: dict, targets: list[dict], topic: str,
-                  slide_focus: str, user_content: str = "") -> str:
+                  slide_focus: str, user_content: str = "",
+                  table_targets: list[dict] = None) -> str:
     shapes_block_lines = []
     for t in targets:
         n  = t["paragraph_count"]
@@ -210,8 +227,25 @@ def _build_prompt(slide: dict, targets: list[dict], topic: str,
         "",
         "Shapes to fill:",
         shapes_block,
+    ]
+
+    # ── Table section ──────────────────────────────────────────────────────
+    if table_targets:
+        lines.append("")
+        lines.append("Tables to fill (replace every cell with relevant content):")
+        for tt in table_targets:
+            td = tt["table_data"]
+            sid = tt["shape_id"]
+            lines.append(f'  Table shape_id "{sid}" — {td["rows"]} rows x {td["cols"]} cols:')
+            for row in td["cells"]:
+                lines.append("    | " + " | ".join(f'"{c}"' for c in row) + " |")
+            lines.append(f'  Return as "{sid}": [[row0col0, row0col1, ...], [row1col0, ...]]')
+            lines.append(f'  Keep EXACT dimensions: {td["rows"]} rows, {td["cols"]} cols per row')
+            lines.append(f'  Max 5 words per cell. Keep header row (row 0) as short labels.')
+
+    lines += [
         "",
-        "Return format:",
+        "Return format (all shapes and tables in one JSON object):",
         "{",
     ]
     for t in targets:
@@ -220,6 +254,11 @@ def _build_prompt(slide: dict, targets: list[dict], topic: str,
             lines.append(f'  "{sid}": ["string 1", "string 2", ...]')
         else:
             lines.append(f'  "{sid}": "string"')
+    if table_targets:
+        for tt in table_targets:
+            sid = tt["shape_id"]
+            td = tt["table_data"]
+            lines.append(f'  "{sid}": [["cell(0,0)", "cell(0,1)"], ["cell(1,0)", "cell(1,1)"], ...]  // {td["rows"]} rows')
     lines.append("}")
 
     return "\n".join(lines)
@@ -350,6 +389,38 @@ def _validate_and_fix(raw_result: dict, targets: list[dict]) -> dict:
     return fixed
 
 
+def _validate_table(raw_value, original_td: dict) -> list:
+    """
+    Ensure table output is a 2-D list matching the original row/col dimensions.
+    Falls back to original cell text if LLM output is malformed.
+    """
+    rows     = original_td["rows"]
+    cols     = original_td["cols"]
+    original = original_td["cells"]
+
+    if not isinstance(raw_value, list):
+        return original
+
+    result = []
+    for r in range(rows):
+        if r >= len(raw_value):
+            result.append(original[r][:cols])
+            continue
+        row_val = raw_value[r]
+        if not isinstance(row_val, list):
+            result.append(original[r][:cols])
+            continue
+        row_out = []
+        for c in range(cols):
+            if c < len(row_val) and row_val[c]:
+                row_out.append(_cap_words(str(row_val[c]).strip(), 6))
+            else:
+                row_out.append(original[r][c] if c < len(original[r]) else "")
+        result.append(row_out)
+
+    return result
+
+
 # ---------------------------------------------------------------------------
 # Public entry point
 # ---------------------------------------------------------------------------
@@ -406,37 +477,46 @@ def generate_content(layout_path: str, output_path: str, topic: str,
 
     # ── Pass 2: Generate per-slide content ────────────────────────────────
     for slide in layout["slides"]:
-        slide_key  = f"slide_{slide['slide_index']}"
-        slide_focus = plan.get(slide_key, f"{topic} — overview")
-        targets    = _collect_targets(slide)
+        slide_key     = f"slide_{slide['slide_index']}"
+        slide_focus   = plan.get(slide_key, f"{topic} — overview")
+        targets       = _collect_targets(slide)
+        table_targets = _collect_table_targets(slide)
 
-        if not targets:
+        if not targets and not table_targets:
             print(f"  Slide {slide['slide_index']} [{slide['layout_name']}]"
-                  f" -- skipped (no replaceable text shapes)")
+                  f" -- skipped (no replaceable shapes)")
             content_map["slides"][slide_key] = {}
             continue
 
+        shape_count = len(targets) + len(table_targets)
         print(f"  Slide {slide['slide_index']} [{slide['layout_name']}]"
-              f" -- {len(targets)} shape(s) | focus: \"{slide_focus[:50]}\" ...",
+              f" -- {shape_count} shape(s) | focus: \"{slide_focus[:50]}\" ...",
               end=" ", flush=True)
 
-        prompt = _build_prompt(slide, targets, topic, slide_focus, user_content)
+        prompt = _build_prompt(slide, targets, topic, slide_focus, user_content, table_targets)
 
         try:
             raw    = _call_groq(client, prompt)
             result = _validate_and_fix(raw, targets)
+            # Validate and merge table results
+            for tt in table_targets:
+                sid = tt["shape_id"]
+                val = raw.get(sid)
+                result[sid] = _validate_table(val, tt["table_data"])
             content_map["slides"][slide_key] = result
             print("done")
         except json.JSONDecodeError as e:
             print(f"JSON parse error: {e} -- keeping original text")
-            content_map["slides"][slide_key] = {
-                t["shape_id"]: t["current_text"] for t in targets
-            }
+            fallback = {t["shape_id"]: t["current_text"] for t in targets}
+            for tt in table_targets:
+                fallback[tt["shape_id"]] = tt["table_data"]["cells"]
+            content_map["slides"][slide_key] = fallback
         except Exception as e:
             print(f"ERROR: {e} -- keeping original text")
-            content_map["slides"][slide_key] = {
-                t["shape_id"]: t["current_text"] for t in targets
-            }
+            fallback = {t["shape_id"]: t["current_text"] for t in targets}
+            for tt in table_targets:
+                fallback[tt["shape_id"]] = tt["table_data"]["cells"]
+            content_map["slides"][slide_key] = fallback
 
     os.makedirs(os.path.dirname(os.path.abspath(output_path)), exist_ok=True)
     with open(output_path, "w", encoding="utf-8") as f:

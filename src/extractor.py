@@ -169,6 +169,25 @@ def _extract_fill(shape):
 
 
 # ---------------------------------------------------------------------------
+# Table extraction
+# ---------------------------------------------------------------------------
+
+def _extract_table(table) -> dict:
+    """Extract table grid as a 2-D list of cell text strings."""
+    cells = []
+    for row in table.rows:
+        row_data = []
+        for cell in row.cells:
+            row_data.append(cell.text.strip())
+        cells.append(row_data)
+    return {
+        "rows": len(table.rows),
+        "cols": len(table.columns),
+        "cells": cells,
+    }
+
+
+# ---------------------------------------------------------------------------
 # Shape extraction (with group recursion)
 # ---------------------------------------------------------------------------
 
@@ -207,6 +226,10 @@ def _extract_single_shape(shape, slide_width, slide_height, z_order):
 
     if shape.has_text_frame:
         data["text_frame"] = _extract_text_frame(shape.text_frame)
+
+    if shape.has_table:
+        data["has_table"] = True
+        data["table_data"] = _extract_table(shape.table)
 
     return data
 
