@@ -6,6 +6,7 @@ using content_mapping.json. All formatting XML is left completely untouched.
 
 import json
 import os
+import re
 import shutil
 from pathlib import Path
 
@@ -14,6 +15,13 @@ from pptx import Presentation
 
 # DrawingML namespace
 A = 'http://schemas.openxmlformats.org/drawingml/2006/main'
+
+
+def _sanitize(text: str) -> str:
+    """Strip NULL bytes and XML-illegal control characters from text."""
+    if not text:
+        return ""
+    return re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', '', str(text))
 
 
 # ---------------------------------------------------------------------------
@@ -62,13 +70,13 @@ def _consolidate_and_set(para_elem, new_text: str):
         t = first_run.find(f'{{{A}}}t')
         if t is None:
             t = etree.SubElement(first_run, f'{{{A}}}t')
-        t.text = new_text
+        t.text = _sanitize(new_text)
 
     else:
         # Paragraph had no runs (empty placeholder) — create a minimal run
         r = etree.SubElement(para_elem, f'{{{A}}}r')
         t = etree.SubElement(r, f'{{{A}}}t')
-        t.text = new_text
+        t.text = _sanitize(new_text)
 
 
 # ---------------------------------------------------------------------------

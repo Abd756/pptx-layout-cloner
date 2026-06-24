@@ -30,13 +30,69 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
+def _ask(prompt: str, default: str = "") -> str:
+    """Print a prompt and return stripped user input, falling back to default."""
+    try:
+        value = input(prompt).strip()
+        return value if value else default
+    except (EOFError, KeyboardInterrupt):
+        print()
+        sys.exit(0)
+
+
+def _interactive_mode() -> argparse.Namespace:
+    """Walk the user through inputs one by one when no CLI flags are given."""
+    print("\nPPTX Layout Cloner — Interactive Mode")
+    print("=" * 50)
+
+    # PPTX path
+    while True:
+        pptx_path = _ask("\nPath to your .pptx file: ")
+        if not pptx_path:
+            print("  [!] Path is required.")
+            continue
+        if not os.path.exists(pptx_path):
+            print(f"  [!] File not found: {pptx_path}")
+            continue
+        break
+
+    # Topic
+    topic = _ask("\nTopic (e.g. 'Page Object Model in Selenium'): ")
+
+    # Content
+    print("\nPaste your content / description below.")
+    print("Explain the topic in your own words — a paragraph or two is enough.")
+    print("Press Enter when done.\n")
+    lines = []
+    while True:
+        try:
+            line = input()
+        except (EOFError, KeyboardInterrupt):
+            break
+        if line == "":
+            break
+        lines.append(line)
+    content = "\n".join(lines).strip()
+
+    print()
+
+    ns = argparse.Namespace(
+        input=pptx_path,
+        topic=topic,
+        content=content,
+        results_dir="results",
+        phase=None,
+    )
+    return ns
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="PPTX Layout Cloner — extract layout and regenerate content via LLM",
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     parser.add_argument("--input",
-                        required=True,
+                        default="",
                         help="Path to input .pptx file")
     parser.add_argument("--topic",
                         default="",
@@ -55,6 +111,10 @@ def main():
                         default=None,
                         help="Run a single phase only (omit to run all phases)")
     args = parser.parse_args()
+
+    # ── If no --input given, drop into interactive mode ────────────────────
+    if not args.input:
+        args = _interactive_mode()
 
     # ── Validate input ─────────────────────────────────────────────────────
     if not os.path.exists(args.input):
@@ -76,7 +136,7 @@ def main():
     print(f"\nPPTX Layout Cloner")
     print(f"  Input      : {args.input}")
     print(f"  Topic      : {args.topic or '(not set)'}")
-    print(f"  Mode       : {'content mapper' if args.content.strip() else 'LLM generator'}")
+    print(f"  Mode       : {'intent-guided' if args.content.strip() else 'free-generator'}")
     print(f"  Run folder : {run_dir}")
 
     run_all = args.phase is None

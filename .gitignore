@@ -5,6 +5,7 @@ env/
 plan/
 # Output files (generated artifacts)
 output/
+results/
 
 
 # Input files (may contain sensitive/client data)
